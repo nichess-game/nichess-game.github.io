@@ -1,7 +1,7 @@
 Nichess
 #######
 
-Nichess is chess where pieces have abilities and health points
+Nichess is chess where pieces have abilities and health points.
 
 Code: https://github.com/nichess-game
 

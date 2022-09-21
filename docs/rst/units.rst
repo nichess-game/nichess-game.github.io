@@ -9,7 +9,7 @@ King
 
 HealthPoints: 200
 
-AbilityPoints: 30
+AbilityPoints: 60
 
 Ability: Single target damage.
 
@@ -26,7 +26,7 @@ Ability range:
 Warrior
 *******
 
-HealthPoints: 600
+HealthPoints: 500
 
 AbilityPoints: 100
 
@@ -45,7 +45,7 @@ Ability range:
 Mage
 ****
 
-HealthPoints: 300
+HealthPoints: 230
 
 AbilityPoints: 80
 
@@ -64,14 +64,13 @@ Ability range:
 Assassin
 ********
 
-HealthPoints: 20
+HealthPoints: 110
 
-AbilityPoints: 200
+AbilityPoints: 120
 
 Ability: Single target damage.
 
-Note: Assassin can jump over other units, unlike Warrior and Pawn, who can't move forward 2 squares
-if any unit is blocking their path.
+Note: Assassin can jump over other units.
 
 Movement range:
 
@@ -89,7 +88,7 @@ Pawn
 
 HealthPoints: 300
 
-AbilityPoints: 0
+AbilityPoints: 30
 
 Ability: Create/destroy a Wall(their own or enemy's).
 
