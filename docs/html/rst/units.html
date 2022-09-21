@@ -172,8 +172,8 @@
 equal to 0, the unit is removed from the game) and the right one is their ability points.</p>
 <section id="king">
 <h2>King<a class="headerlink" href="#king" title="Permalink to this headline">¶</a></h2>
-<p>HealthPoints: 200</p>
-<p>AbilityPoints: 60</p>
+<p>Health points: 200</p>
+<p>Ability points: 60</p>
 <p>Ability: Single target damage.</p>
 <p>Movement range:</p>
 <img alt="../_images/king_move.png" src="../_images/king_move.png" />
@@ -185,8 +185,8 @@ equal to 0, the unit is removed from the game) and the right one is their abilit
 </section>
 <section id="warrior">
 <h2>Warrior<a class="headerlink" href="#warrior" title="Permalink to this headline">¶</a></h2>
-<p>HealthPoints: 500</p>
-<p>AbilityPoints: 100</p>
+<p>Health points: 500</p>
+<p>Ability points: 100</p>
 <p>Ability: Single target damage.</p>
 <p>Movement range:</p>
 <img alt="../_images/warrior_move.png" src="../_images/warrior_move.png" />
@@ -194,12 +194,12 @@ equal to 0, the unit is removed from the game) and the right one is their abilit
 <div class="line"><br /></div>
 </div>
 <p>Ability range:</p>
-<img alt="_static/warrior_ability.png" src="_static/warrior_ability.png" />
+<img alt="../_images/warrior_ability.png" src="../_images/warrior_ability.png" />
 </section>
 <section id="mage">
 <h2>Mage<a class="headerlink" href="#mage" title="Permalink to this headline">¶</a></h2>
-<p>HealthPoints: 230</p>
-<p>AbilityPoints: 80</p>
+<p>Health points: 230</p>
+<p>Ability points: 80</p>
 <p>Ability: AOE damage. If mage hits an enemy unit, all neighbouring enemy units also receive damage.</p>
 <p>Movement range:</p>
 <img alt="../_images/mage_move.png" src="../_images/mage_move.png" />
@@ -211,8 +211,8 @@ equal to 0, the unit is removed from the game) and the right one is their abilit
 </section>
 <section id="assassin">
 <h2>Assassin<a class="headerlink" href="#assassin" title="Permalink to this headline">¶</a></h2>
-<p>HealthPoints: 110</p>
-<p>AbilityPoints: 120</p>
+<p>Health points: 110</p>
+<p>Ability points: 120</p>
 <p>Ability: Single target damage.</p>
 <p>Note: Assassin can jump over other units.</p>
 <p>Movement range:</p>
@@ -225,9 +225,14 @@ equal to 0, the unit is removed from the game) and the right one is their abilit
 </section>
 <section id="pawn">
 <h2>Pawn<a class="headerlink" href="#pawn" title="Permalink to this headline">¶</a></h2>
-<p>HealthPoints: 300</p>
-<p>AbilityPoints: 30</p>
-<p>Ability: Create/destroy a Wall(their own or enemy’s).</p>
+<p>Health points: 300</p>
+<p>Ability points: 30</p>
+<p>Ability:</p>
+<ol class="arabic simple">
+<li><p>If used on an empty square: Creates a Wall.</p></li>
+<li><p>If used on a square occupied by a Wall: Destroys the Wall.</p></li>
+<li><p>If used on an enemy unit: Single target damage.</p></li>
+</ol>
 <p>Movement range:</p>
 <img alt="../_images/pawn_move.png" src="../_images/pawn_move.png" />
 <div class="line-block">
@@ -238,10 +243,10 @@ equal to 0, the unit is removed from the game) and the right one is their abilit
 </section>
 <section id="wall">
 <h2>Wall<a class="headerlink" href="#wall" title="Permalink to this headline">¶</a></h2>
-<p>HealthPoints: 100</p>
-<p>AbilityPoints: 0</p>
+<p>Health points: 100</p>
+<p>Ability points: 0</p>
 <p>Walls have no abilities and they can’t move.</p>
-<img alt="_static/wall.png" src="_static/wall.png" />
+<img alt="../_images/pawn_ability.png" src="../_images/pawn_ability.png" />
 </section>
 </section>
 

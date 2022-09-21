@@ -7,9 +7,9 @@ equal to 0, the unit is removed from the game) and the right one is their abilit
 King
 ****
 
-HealthPoints: 200
+Health points: 200
 
-AbilityPoints: 60
+Ability points: 60
 
 Ability: Single target damage.
 
@@ -26,9 +26,9 @@ Ability range:
 Warrior
 *******
 
-HealthPoints: 500
+Health points: 500
 
-AbilityPoints: 100
+Ability points: 100
 
 Ability: Single target damage.
 
@@ -45,9 +45,9 @@ Ability range:
 Mage
 ****
 
-HealthPoints: 230
+Health points: 230
 
-AbilityPoints: 80
+Ability points: 80
 
 Ability: AOE damage. If mage hits an enemy unit, all neighbouring enemy units also receive damage.
 
@@ -64,9 +64,9 @@ Ability range:
 Assassin
 ********
 
-HealthPoints: 110
+Health points: 110
 
-AbilityPoints: 120
+Ability points: 120
 
 Ability: Single target damage.
 
@@ -86,11 +86,17 @@ Ability range:
 Pawn
 ****
 
-HealthPoints: 300
+Health points: 300
 
-AbilityPoints: 30
+Ability points: 30
 
-Ability: Create/destroy a Wall(their own or enemy's).
+Ability:
+
+1) If used on an empty square: Creates a Wall.
+
+2) If used on a square occupied by a Wall: Destroys the Wall.
+
+3) If used on an enemy unit: Single target damage.
 
 Movement range:
 
@@ -105,11 +111,11 @@ Ability range:
 Wall
 ****
 
-HealthPoints: 100
+Health points: 100
 
-AbilityPoints: 0
+Ability points: 0
 
 Walls have no abilities and they can't move.
 
-.. image:: ../_static/wall.png
+.. image:: ../_static/pawn_ability.png
 
